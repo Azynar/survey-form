@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Star Universe | Survey Form</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Let's Improve from you</h1>
+    <p class="headP">Please kindly fill out the neccessary details to assist us in serving you better</p>
+    <form action="" netlify>
+      <div class="form-control">
+        <label for="Name">Name:</label>
+        <input class="text" type="text" id="Name" name="name" placeholder="Enter Your Full Name" required>
+      </div>
+      <div class="form-control">
+        <label for="Email">Email:</label>
+        <input class="text" type="email" id="Email" name="email" placeholder="Enter Your Email" required>
+      </div>
+      <div class="form-control">
+        <label for="number">Phone Number:</label>
+        <input class="text" type="number" id="number" name="number" required>
+      </div>
+      <div class="form-control">
+        <label for="date">Date Of Birth:</label>
+        <input class="text" type="date" id="date" name="date">
+      </div>
+      <div class="form-control">
+        <p>How did you get to know about us?</p>
+        <div class="options">
+          <input type="radio" value="facebook" name="know" id="facebook" checked>
+          <label for="facebook">Facebook</label>
+        </div>
+        <div class="options">
+          <input type="radio" value="twitter" name="know" id="twitter">
+          <label for="twitter">Twitter</label>
+        </div>
+        <div class="options">
+          <input type="radio" value="whatsapp" name="know" id="whatsapp">
+          <label for="whatsapp">WhatsApp</label>
+        </div>
+        <div class="options">
+          <input type="radio" value="instagram" name="know" id="instagram">
+          <label for="instagram">Instagram</label>
+        </div>
+      </div>
+      <div class="form-control">
+        <p>Your Favorite Comic(s)</p>
+        <div class="options">
+          <input type="checkbox" value="Origin" name="origin" id="origin">
+          <label for="origin">Star-Squad: Origin</label>
+        </div>
+        <div class="options">
+          <input type="checkbox" value="ages" name="Ages" id="ages">
+          <label for="ages">Star-Squad: Ages of Darkness</label>
+        </div>
+        <div class="options">
+          <input type="checkbox" value="demon" name="Demon" id="demon">
+          <label for="demon">Star-Squad: Encounter with the Demon clan</label>
+        </div>
+        <div class="options">
+          <input type="checkbox" value="giant" name="Giant" id="giant">
+          <label for="giant">Star-Squad: Encounter with the Giant Clan</label>
+        </div>
+        <div class="options">
+          <input type="checkbox" value="blazin-stars" name="blazin-stars" id="blazin-stars">
+          <label for="blazin-stars">Blazin' Stars</label>
+        </div>
+        <div class="options">
+          <input type="checkbox" value="supernaturals" name="supernaturals" id="supernaturals">
+          <label for="supernaturals">The Supernaturals</label>
+        </div>
+        <div class="options">
+          <input type="checkbox" value="Jay-jay" name="jay-jay" id="jay-jay">
+          <label for="jay-jay">Jason And Jirayah</label>
+        </div>
+        <div class="options">
+          <input type="checkbox" value="true" name="true" id="true">
+          <label for="true">The True King</label>
+        </div>
+      </div>
+      <div class="form-control">
+        <p>Suggestions on how we can improve</p>
+        <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+      </div>
+      <input type="submit" value="Submit" class="btn">
+    </form>
+  </div>
+</body>
+</html>
